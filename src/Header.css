@@ -8,9 +8,22 @@
 .header__logo{
       height:25px;
       object-fit: contain;
+      margin-left: 20px;
 }
 
 .header__input {
       display: flex;
       align-items: center;
+      width:40%;
+      border: 1px solid black;
+}
+
+.header__icons {
+      display: flex;
+      align-items: center;   
+}
+
+.header__input > input {
+      flex: 1;
+      border: none;
 }
