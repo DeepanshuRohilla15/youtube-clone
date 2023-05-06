@@ -1,10 +1,17 @@
 import React from 'react'
+import VideoCard from './VideoCard';
 import './RecommendedVideos.css';
 
 function RecommendedVideos() {
   return (
     <div className='recommendedVideos'>
-      <h2>This is where videos are go</h2>
+      <h2>Recommended</h2>
+      <div className='recommendedVideos__videos'>
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+
+      </div>
     </div>
   )
 }
